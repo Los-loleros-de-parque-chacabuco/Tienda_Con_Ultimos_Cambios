@@ -14,6 +14,8 @@
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 	<link rel="shortcut icon" href="./images/NewCanvas1.png">
+	<!--ESTILOS DE LA CARD-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -55,7 +57,7 @@
 	<main id="blog">
 		<div class="contenedor">
 			<aside class="wow animate__animated animate__backInLeft">
-				<h3 class="titulo">Temas</h3>
+				<h3 class="titulo2">Temas</h3>
 				<nav class="indice">
 					<a href="#Articulo1">Articulo #1</a>
 					<a href="#Articulo2">Articulo #2</a>
@@ -119,146 +121,218 @@
 			</div>
 		</div>
 		<!-- CARRITO -->
-		<div class="promo"><h2>Promociones basicas</h2></div>
-		<div class="promociones">
-			<div class="columns"> <!--Promo 1-->
-				<ul class="price">
-				  <li class="header">Promocion basica</li>
-				  <li class="grey">Valor $ 75000 </li>
-				  <li>Una bicleta rota</li>
-				  <li>Un bono por $500</li>
-				  <li>un abrazo de Malen tranqui no pidas mucho pa</li>
-				  <li>Un inflador firmado por Chris con faltas de ortografia</li>
-				  <li data-bici="3"  class="grey"><a href="#" class="button">Adquirir</a></li>
-				</ul>
-			  </div>
-			  <!--Promo 2-->
-			  <div class="columns">
-				<ul class="price">
-				  <li class="header">Promocion Biciteka</li>
-				  <li class="grey">Valor $ 120000 </li>
-				  <li>Una bicleta todo terreno</li>
-				  <li>Un bono de compra $5000</li>
-				  <li>una foto con Rodri , por $850 mas te incluimos a Franco en la foto </li>
-				  <li>Un casco para la bici firmado por Angelica</li>
-				  <li onclick="promocionBiciteka ()" class="grey"><a href="#" class="button">Adquirir</a></li>
-				</ul>
-			  </div>
-			  <!--Promo 3-->
-			  <div class="columns">
-				<ul class="price">
-				  <li class="header">Promocion premium</li>
-				  <li class="grey">Valor USD$2500  </li>
-				  <li>Una bicicleta a eleccion</li>
-				  <li>Un cupon de regalo por USD$10</li>
-				  <li>un striptees de Agus</li>
-				  <li>Un carrrito trailer para llevar niños firmado por Shakira <br> <br></li>
-				  <li  class="grey"><a href="#" class="button">Adquirir</a></li>
-				</ul>
-			  </div>
-		</div>
-		<div class="clear"></div>
-		<div class="premium"><h2>Sector premium</h2></div> <!--Sector premium-->
-		<div class="padre">
-			<div class="acomodarTargetas">      <!--Tarjetas-->
-				<div>
-				<div class="container">
-				  <div class="card">
-					<div class="imgBx">
-					  <img src="./Images/1.png">
+		<div class="fondobici">
+			<div class="animate wow animate__animated animate__fadeInUp animate__delay-1s">
+				<h2 class="h2">Promociones</h2>
+				<div id="container">
+
+					<div class="product-details">
+
+						<h1>Bikers</h1>
+						<span class="hint-star star">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+						</span>
+						<p class="information">Bienvenidos a nuestra tienda, los mejores productos y ofertas los 365
+							dias del año.</p>
+						<div class="control">
+
+							<!-- <button class="btn">
+								<span class="price">$250</span>
+								<span class="shopping-cart"><i class="fa fa-shopping-cart"
+										aria-hidden="true"></i></span>
+								<span class="buy">Get now</span>
+							</button> -->
+
+						</div>
+
 					</div>
-					<div class="contentBx">
-					  <h2>Bici 1</h2>
-					  <div class="size">
-						<h3>Rodado:</h3>
-						<span>16</span>
-						<span>20</span>
-						<span>24</span>
-						<span>26</span>
-					  </div>
-					  <div class="color">
-						<h3>Color :</h3>
-						<span></span>
-						<span></span>
-						<span></span>
-					  </div>
-					  <div>
-						<h3 class="colorLetra">Precio $35000</h3>
-					  </div>
-					  <a href="#" data-bici="1" class="biciCompra">Comprar</a>
+
+					<div class="product-image">
+
+						<img src="./images/bikers.jpg" width="180px" height="180px" alt="">
+
+
+						<div class="info">
+							<h2> Descripcion</h2>
+							<ul>
+								<li><strong>Rodados : </strong>16, 20, 24 y 26</li>
+								<li><strong>Colores: </strong>Todos los habidos y por haber</li>
+								<li><strong>Marcas: </strong>Trek, Merida, Orbea, Belfort Bikes, Scott</li>
+								<li><strong>Materiales: </strong>Acero, Aluminio, Fibra de carbono y Titanio</li>
+
+							</ul>
+						</div>
 					</div>
-				  </div>
+
 				</div>
-				</div>
-				<div>
-				<div class="container">
-				  <div class="card">
-					<div class="imgBx">
-					  <img src="./images/2.png">
-					</div>
-					<div class="contentBx">
-					  <h2>Bici 2</h2>
-					  <div class="size">
-						<h3>Rodado :</h3>
-						<span>16</span>
-						<span>20</span>
-						<span>24</span>
-						<span>26</span>
-					  </div>
-					  <div></div>
-					  <div class="color">
-						<h3>Color :</h3>
-						<span></span>
-						<span></span>
-						<span></span>
-					  </div>
-					  <div>
-						<h3 class="colorLetra">Precio $65000</h3>
-					  </div>
-					  <a href="#"data-bici="2" class="biciCompra" >Comprar</a>
-					</div>
-				  </div>
-				</div>
-				</div>
-				<div>
-				<div class="container">
-				  <div class="card">
-					<div class="imgBx">
-					  <img src="./images/3.png">
-					</div>
-					<div class="contentBx">
-					  <h2>Bici 3</h2>
-					  <div class="size">
-						<h3>Rodado :</h3>
-						<span>16</span>
-						<span>20</span>
-						<span>24</span>
-						<span>26</span>
-					  </div>
-					  <div class="color">
-						<h3>Color :</h3>
-						<span></span>
-						<span></span>
-						<span></span>
-					  </div>
-					  <div>
-						<h3 class="colorLetra">Precio $75000</h3>
-					  </div>
-					  <a href="#" data-bici="3" class="biciCompra">Comprar</a>
-					</div>
-				  </div>
-				</div>
-			  </div>
 			</div>
 		</div>
-	<!--Termina carrito  -->
+		<!--Sector premium-->
+		<div class="premium">
+			<h2 class="titulo wow animate__animated animate__zoomIn">Sector premium</h2>
+		</div>
+		<div class="padre">
+			<div class="acomodarTargetas">
+				<!--Tarjetas-->
+				<div>
+					<div class="container wow animate__animated animate__slideInLeft">
+						<div class="card">
+							<div class="imgBx">
+								<img src="./Images/1.png">
+							</div>
+							<div class="contentBx">
+								<h2>Bici 1</h2>
+								<div class="size">
+									<h3>Rodado:</h3>
+									<span>16</span>
+									<span>20</span>
+									<span>24</span>
+									<span>26</span>
+								</div>
+								<div class="color">
+									<h3>Color :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div>
+									<h3 class="colorLetra">Precio $35000</h3>
+								</div>
+								<a href="#" data-bici="1" class="biciCompra">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="container wow animate__animated animate__slideInUp">
+						<div class="card">
+							<div class="imgBx">
+								<img src="./images/2.png">
+							</div>
+							<div class="contentBx">
+								<h2>Bici 2</h2>
+								<div class="size">
+									<h3>Rodado :</h3>
+									<span>16</span>
+									<span>20</span>
+									<span>24</span>
+									<span>26</span>
+								</div>
+								<div></div>
+								<div class="color">
+									<h3>Color :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div>
+									<h3 class="colorLetra">Precio $65000</h3>
+								</div>
+								<a href="#" data-bici="2" class="biciCompra">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="container wow animate__animated animate__slideInRight">
+						<div class="card">
+							<div class="imgBx">
+								<img src="./images/3.png">
+							</div>
+							<div class="contentBx">
+								<h2>Bici 3</h2>
+								<div class="size">
+									<h3>Rodado :</h3>
+									<span>16</span>
+									<span>20</span>
+									<span>24</span>
+									<span>26</span>
+								</div>
+								<div class="color">
+									<h3>Color :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div>
+									<h3 class="colorLetra">Precio $75000</h3>
+								</div>
+								<a href="#" data-bici="3" class="biciCompra">Comprar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Termina carrito  -->
+		<!-- CARTAS 2 -->
+		<div class="padre2">
+			<div class="conte ">
+				<div class="card stromtroper">
+					<img src="./Images/Combo 1.png" alt="">
+				</div>
+				<div class="informacion">
+					<h1>ComboResacoso</h1>
+				   <p class="fecha">
+					Este combo va estar habilitado hasta el :23/10/2021
+				   </p>
+				</div>
+				<div class="precio">
+					<div class="box-precio">
+						<span class="precio1"><strike>$75000</strike> </span>
+					<span class="precio2"><b>$45000</b></span>
+					</div>
+					<span class="shoping"><i class="fas fa-cart-plus"></i></span>
+					<button class="botonCombo">comprar</button>
+				</div>
+			</div>
+		   <div class="conte">
+				<div class="card iron-man">
+					<img src="./Images/Combo 2.png" alt="">
+				</div>
+				<div class="informacion">
+					<h1>Combo Loleros</h1>
+				   <p class="fecha">
+					Este combo va estar habilitado hasta el :21/11/2021
+				   </p>
+				</div>
+				<div class="precio">
+					<div class="box-precio">
+						<span class="precio1"><strike>$90000</strike> </span>
+						<span class="precio2"><b>$65000</b></span>
+					</div>
+					<span class="shoping"><i class="fas fa-cart-plus"></i></span>
+					<button class="botonCombo">comprar</button>
+				</div>
+				</div>
+		   <div class="conte">
+				<div class="card spider-man">
+					<img src="./Images/Combo3.png" alt="">
+				</div>
+				<div class="informacion">
+					<h1>Combo NicoPremium</h1>
+				   <p class="fecha">
+					Este combo va estar habilitado hasta el :05/11/2021
+				   </p>
+				</div>
+				<div class="precio">
+					<div class="box-precio">
+						<span class="precio1"><strike>$120000</strike> </span>
+					<span class="precio2"><b>$90000</b></span>
+					</div>
+					<span class="shoping"><i class="fas fa-cart-plus"></i></span>
+					<button class="botonCombo">comprar</button>
+				</div>
+			</div>
+		</div>
 
 	</main>
 	<footer>
-		<div class="contenedor-imagen">
-			<img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-				alt="">
-		</div>
+		
 	</footer>
 	<script src="./app.js"></script>
 	<script src="wow.min.js"></script>
