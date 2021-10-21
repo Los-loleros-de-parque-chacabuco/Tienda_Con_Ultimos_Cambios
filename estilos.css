@@ -26,6 +26,7 @@ header{
   position: relative;
   overflow: none;
 }
+
 /* * ============================== */
 /* * ============ HEADER ========== */
 /* * ============================== */
@@ -909,8 +910,30 @@ font-size:18px ;
 }
 
 
+/* Footer */
 
+footer > div{
+  background-color: #AEEA00;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
 
+.falacias{
+  background: linear-gradient(to right, rgba(84, 90, 66, 0.116), rgba(110, 98, 98, 0.582));
+  border-radius: 10px;
+  box-shadow: 5px 10px #343434;
+  flex-wrap: wrap;
+  float:left;
+  margin:0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 350px;
+}
 
+.color{
+  background-color:#353535;
+  color: white;
+}
 
 
