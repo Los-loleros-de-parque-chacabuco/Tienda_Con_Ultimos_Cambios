@@ -68,9 +68,6 @@ header{
 .titulo2{
   color: black;
 }
-h1{
-  color: white;
-}
 .fecha{
   color: white;
 }
@@ -300,7 +297,7 @@ padding: 30px;
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  
 }
 .price {
   color: grey;
@@ -322,9 +319,7 @@ color: white;
   background-color: #3F3F3F;
 border: solid 2px #AEEA00;
 }
-.boton{
 
-}
 /*PROMO*/
 .promo{
   display: flex;
@@ -335,16 +330,18 @@ border: solid 2px #AEEA00;
   margin: auto;
   
 }
-.h2{
+.imagenBici{
+  opacity:0.5;
+}
+.lema{
   text-align: center;
-  color: black;
-  font: bold;
-  border: solid 1px black;
-  background-color: white;
+  color: white;
+  font-size:35px;
+  padding: 250px;
 }
 .fondobici{
   text-align: center;
-  background-image: url(./images/fondobici2.jpg);
+  background-image: url(./images/fondobici2.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -511,8 +508,7 @@ font-family: 'EB Garamond', serif;
 	position: relative;
 	overflow: hidden;
 	height: 100%;
-	float: right;
-	width: 45%;
+  width: 45%;
 	display: inline-block;
 }
 
@@ -561,8 +557,8 @@ font-family: 'EB Garamond', serif;
 /* Style the list */
 .price {
   list-style-type: none;
-  border: 2px solid teal;
-  margin: 0;
+  border: 2px solid #AEEA00;
+  margin-bottom:60px;
   padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -573,9 +569,10 @@ font-family: 'EB Garamond', serif;
 }
 /* Pricing header */
 .price .header {
-  background-color:teal;
-  color:wheat;
-  font-size: 25px;
+  background-color:#AEEA00;
+  color:black;
+  font-style:bold;
+ 
 }
 /* List items */
 .price li {
@@ -592,9 +589,9 @@ font-family: 'EB Garamond', serif;
 }
 /* The "Sign Up" button */
 .button {
-  background-color: #04AA6D;
+  background-color: #AEEA00;
   border: none;
-  color: white;
+  color:black;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -605,7 +602,7 @@ font-family: 'EB Garamond', serif;
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
-  }
+}
 }
 .clear{
   clear: both;
